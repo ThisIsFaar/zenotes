@@ -1,6 +1,35 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .notDisplayPinButton {
   visibility: hidden;
 }
 .displayPinButton {
   visibility: visible;
+}
+.card {
+  width: 30vw;
+}
+
+@media only screen and (max-width: 425px) {
+  .card {
+    width: 90vw;
+  }
 }
